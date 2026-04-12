@@ -1,11 +1,12 @@
 <!--
 Sync Impact Report:
-- Version change: 1.1.0
+- Version change: 1.1.1
 - Modified principles:
   - Simplified constitution to workspace-wide governance rules only
   - Removed repository-specific backend/frontend implementation constraints
   - Added explicit cross-repository coordination and traceability rules
   - Corrected feature-branch rule to include infrastructure repository
+  - Added a workspace-wide rule requiring Korean commit message descriptions
 - Removed sections:
   - Backend Constraints
   - Frontend Constraints
@@ -85,6 +86,7 @@ specs, implementation, and infrastructure changes aligned.
 ## Commit Convention
 
 - Commit messages must start with one of: `feat`, `chore`, `fix`, `refactor`, `docs`.
+- After the required prefix, the descriptive portion of the commit message must be written in Korean.
 
 ## Governance
 
@@ -97,4 +99,4 @@ specs, implementation, and infrastructure changes aligned.
 - Feature specs, plans, and task documents must either reference this constitution directly or include equivalent constraints.
 - Exceptions and verification gaps must be recorded explicitly in plan/task documents.
 
-**Version**: 1.1.0 | **Ratified**: TODO(RATIFICATION_DATE): original adoption date not found | **Last Amended**: 2026-04-12
+**Version**: 1.1.1 | **Ratified**: TODO(RATIFICATION_DATE): original adoption date not found | **Last Amended**: 2026-04-12
